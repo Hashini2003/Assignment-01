@@ -195,8 +195,8 @@ test('Pos_Fun_0021', async ({ page }) => {
   const inputBox = page.locator('textarea');
   const outputBox = page.locator('div.whitespace-pre-wrap.overflow-y-auto.flex-grow.bg-slate-50');
 
-  await inputBox.fill('mama adha inne gedhara.');
-  await expect(outputBox).toContainText('මම අද ඉන්නේ ගෙදර');
+  await inputBox.fill('yaaluvanee api vinoodha chaarikaavak yamudha mokadha kiyannee dhavas dhekak, nuvara eliye saha badhulle gihin naalaa kaalaa aevidhalaa emu. samanta yi nayanata yi kiyamu needha.');
+  await expect(outputBox).toContainText('යාලුවනේ අපි විනෝද චාරිකාවක් යමුද මොකද කියන්නේ දවස් දෙකක්, නුවර එලියෙ සහ බදුල්ලෙ ගිහින් නාලා කාලා ඇවිදලා එමු. සමන්ට යි නයනට යි කියමු නේද.');
 });
 
 test('Pos_Fun_0022', async ({ page }) => {
